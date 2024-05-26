@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2f3f9;
+  font-family: "lato";
+}
+
+.card {
+  background-color: #fff;
+  width: 400px;
+  border-radius: 12px;
+}
+
+.card-content {
+  padding: 0 30px 30px;
+}
+
+.card-img {
+  background: url(img/hero-image-business-card.png);
+  height: 17rem;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  border-radius: 12px;
+}
+
+.card-img svg {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  height: fit-content;
+}
+
+.main-card-content h1 {
+  letter-spacing: -1px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  font-family: "Poppins", sans-serif;
+  color: #111729;
+}
+
+.main-card-content p {
+  margin: 10px 0 0;
+  color: #677489;
+  font-size: 1rem;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.profile-img img {
+  width: 45px;
+  border-radius: 50%;
+  border: 4px solid #f2f3f9;
+}
+
+.profile-content h3 {
+  color: #111729;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.profile-content p {
+  color: #677489;
+  font-size: 10px;
+  font-weight: 600;
+}
